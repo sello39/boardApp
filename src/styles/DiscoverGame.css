@@ -1,0 +1,47 @@
+.row {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.column {
+  width: 70%; 
+  padding-left: 102px;
+  top: -30px;
+}
+
+.discover-game-container {
+  position: relative;
+  overflow: visible;
+  padding-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 35px 50px;
+  
+}
+
+.wrapper {
+  position: relative; 
+  height: 350px; 
+  width: 30%; 
+  top: -90px;
+}
+
+.image-container {
+  background: url('../assets/images/girlcode.png') no-repeat center center;
+  background-size: cover;
+  height: 126%;
+  width: 125%;
+}
+
+.right-call-to-action {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #6542F4 43.84%, #F976FF 68.39%, #B50098 91.97%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}

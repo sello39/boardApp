@@ -5,22 +5,20 @@
   body {
     margin: 0;
     font-family: Lato, sans-serif;
-    background-color: #2E1F6E; /* Set the background color */
-    color: white; /* Set a default text color */
+    background-color: #2E1F6E; 
+    padding-top: 80px; 
   }
 
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 90px;
-    background-color: rgba(46, 31, 110, 0.8); /* Semi-transparent background */
-    color: white;
+    padding: 20px 54px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease; 
   }
   
   .nav-links {
@@ -39,7 +37,7 @@
   }
   
   .nav-links a:hover {
-    color: #ff6347; /* Change color on hover */
+    color: #a582ff; 
   }
   
   /* Hamburger Menu Styles */
@@ -59,22 +57,22 @@
   /* Responsive Styles */
   @media (max-width: 768px) {
     .nav-links {
-      display: none; /* Hide links by default */
+      display: none; 
       flex-direction: column;
       position: absolute;
-      top: 60px; /* Adjust based on navbar height */
+      top: 60px; 
       left: 0;
-      background-color: rgba(46, 31, 110, 0.9); /* Background for mobile menu */
+      background-color: rgba(46, 31, 110, 0.9);
       width: 100%;
       z-index: 999;
     }
   
     .nav-links.active {
-      display: flex; /* Show links when active */
+      display: flex; 
     }
   
     .hamburger {
-      display: flex; /* Show hamburger menu */
+      display: flex; 
     }
   }
 
